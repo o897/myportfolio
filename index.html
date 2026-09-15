@@ -229,6 +229,42 @@
 
     .project-link:hover { opacity: 0.4; }
 
+    .demo-credentials {
+      margin-top: 22px;
+      padding: 16px;
+      border: 0.5px solid var(--border);
+      border-radius: 5px;
+      background: var(--surface);
+    }
+
+    .demo-credentials h4 {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      color: var(--fg);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .credential-row {
+      display: grid;
+      grid-template-columns: 90px 1fr;
+      gap: 8px;
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      line-height: 1.8;
+      color: var(--muted);
+    }
+
+    .credential-role { color: var(--fg); }
+
+    .credential-password {
+      margin-top: 8px;
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      color: var(--muted);
+    }
+
     /* SKILLS */
     .skills-grid {
       display: grid;
@@ -372,6 +408,13 @@
        
         <a class="project-link" href=" https://laraveldaily.com/post/demo-project-laravel-support-ticket-system" target="_blank" rel="noreferrer">Project Scope →</a>
         <a class="project-link" href="https://tickets.oraserver.online/" target="_blank" rel="noreferrer">Laravel Support Ticket System →</a>
+        <div class="demo-credentials">
+          <h4>Demo login details</h4>
+          <div class="credential-row"><span class="credential-role">User</span><span>test@mail.com</span></div>
+          <div class="credential-row"><span class="credential-role">Agent</span><span>agent@mail.com</span></div>
+          <div class="credential-row"><span class="credential-role">Admin</span><span>admin@mail.com</span></div>
+          <div class="credential-password">Password for all accounts: password</div>
+        </div>
       </div>
 
       <div class="project-card">
@@ -393,6 +436,13 @@
           <span class="tag">Docker</span>
         </div>
         <a class="project-link" href="https://phekong-1.onrender.com/login" target="_blank" rel="noreferrer">View Phekong →</a>
+        <div class="demo-credentials">
+          <h4>Demo login details</h4>
+          <div class="credential-row"><span class="credential-role">Sales Rep</span><span>sales@test.com</span></div>
+          <div class="credential-row"><span class="credential-role">Stock Admin</span><span>stock@test.com</span></div>
+          <div class="credential-row"><span class="credential-role">Approval Admin</span><span>approve@test.com</span></div>
+          <div class="credential-password">Password for all accounts: password</div>
+        </div>
       </div>
 
       <div class="project-card">
